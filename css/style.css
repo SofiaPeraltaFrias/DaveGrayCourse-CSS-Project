@@ -22,7 +22,6 @@ textarea {
 }
 
 /* || VARIABLES*/
-
 :root {
     /* FONTS */
     --FF: "Nunito", sans-serif;
@@ -35,4 +34,18 @@ textarea {
     --BGIMAGE: linear-gradient(to bottom, var(--BGCOLOR), var(--BGCOLOR-FADE));
     --BODY-BGCOLOR: #FFF;
     --FONT-COLOR: #000; 
+}
+
+/* || UTILITY CLASSES*/
+.offscreen {
+    position: absolute;
+    left: -10000px;
+}
+
+.nowrap {
+    white-space: nowrap;
+}
+
+.center {
+    text-align: center;
 }
